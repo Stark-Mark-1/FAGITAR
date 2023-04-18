@@ -1,4 +1,4 @@
-import React from 'react'
+import './homeStyle.css'
 
 const home = () => {
   return (
@@ -8,4 +8,4 @@ const home = () => {
   )
 }
 
-export default home
+export default home;

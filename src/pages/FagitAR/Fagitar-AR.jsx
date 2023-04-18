@@ -1,4 +1,4 @@
-import React from 'react'
+import './Fagit-ArStyle.css'
 
 const FagitarAR = () => {
   return (
