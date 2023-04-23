@@ -2,7 +2,7 @@ import './aboutStyle.css'
 
 const about = () => {
   return (
-    <div>
+    <div className='vision'>
       about
     </div>
   )

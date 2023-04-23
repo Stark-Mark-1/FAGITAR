@@ -2,7 +2,7 @@ import './blogStyle.css'
 
 const blogs = () => {
   return (
-    <div>
+    <div className='vision'>
       blogs
     </div>
   )

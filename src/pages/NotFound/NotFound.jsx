@@ -2,7 +2,7 @@ import './NotFoundStyle.css'
 
 const NotFound = () => {
   return (
-    <div>NotFound</div>
+    <div className='vision'>NotFound</div>
   )
 }
 

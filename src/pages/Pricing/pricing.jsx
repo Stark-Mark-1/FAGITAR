@@ -1,7 +1,7 @@
 import './pricingStyle.css'
 const pricing = () => {
   return (
-    <div className='pricing'>
+    <div className='vision'>
       pricing
     </div>
   )

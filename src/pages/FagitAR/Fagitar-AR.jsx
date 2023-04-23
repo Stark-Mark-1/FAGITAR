@@ -2,7 +2,7 @@ import './Fagit-ArStyle.css'
 
 const FagitarAR = () => {
   return (
-    <div>
+    <div className='vision'>
       FagitarAR
     </div>
   )
