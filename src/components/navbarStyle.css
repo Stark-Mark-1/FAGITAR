@@ -1,5 +1,5 @@
-nav{
-    height: 5rem;
+.nav{
+    height: 4.9rem;
     width: 100vw;
     background:var(--color-primary);
     display: grid;
@@ -7,7 +7,7 @@ nav{
     position:fixed;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 0;
 }
 .nav_toggle-btn{
     display: none;
@@ -19,8 +19,10 @@ nav{
     align-items: center;
     position: fixed;
 }
-.logo{
-    width: 7rem;
+.LoGo{
+    width: 50px;
+    height: 50px;
+    background:transparent;
 }
 .nav__links{
     display: flex;
