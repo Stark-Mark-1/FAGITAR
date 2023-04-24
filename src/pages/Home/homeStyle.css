@@ -39,3 +39,22 @@ margin-top:3rem ;
 .main__header-image{
     position: relative;
 }
+
+
+.programs{
+    margin-top: 5rem;
+}
+.programs__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.programs__program{
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.programs__program:hover{
+    color: var(--color-grey-600);
+}
