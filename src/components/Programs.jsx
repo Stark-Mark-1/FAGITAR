@@ -10,8 +10,8 @@ const Programs = () => {
     <section className='programs'>
       <div className="container programs__container">
         <SectionHead icon={<FaCrown/>} title="Programs"/>
-      </div>
-      <div className="programs__wrapper">
+      
+       <div className="programs__wrapper">
         {
           programs.map(({id,icon,title,info,path})=>{
             return(
@@ -25,7 +25,7 @@ const Programs = () => {
           })
         }
       </div>
-
+    </div>
     </section>
   )
 }
