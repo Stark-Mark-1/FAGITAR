@@ -1,0 +1,39 @@
+.plans__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.plans h3{
+    margin-bottom: 0.8rem;
+
+}
+.plans small
+{
+    margin-bottom: 2rem;
+}
+.plan  h1{
+    color: var(--color-primary);
+    display: inline;
+}
+.plan h2{
+    display: inline;
+    color: var(--color-gray-400);
+}
+.plan h4{
+    margin-top: 1rem;
+    color: var(--color-gray-100);
+}
+.plan p
+{
+    margin-top:1rem;
+    color: var(--color-gray-400);
+}
+.plan p.disabled{
+    color: #686060;
+    opacity: 0.5rem;
+}
+.plan button
+{
+    margin-top:3rem;
+    cursor: pointer;
+}
